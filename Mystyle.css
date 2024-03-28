@@ -62,8 +62,8 @@ body::-webkit-scrollbar {
 }
 
 .card-img-top:hover {
-    transform: scale(1.1); /* Escala la imagen un 10% */
-  }
+  transform: scale(1.1); /* Escala la imagen un 10% */
+}
 .card {
     --bs-card-border-color: #0D6EFD;
     --bs-card-bg: #fff0;
