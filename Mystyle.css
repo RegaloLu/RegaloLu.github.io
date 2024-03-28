@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
 
 .container-second-Mu {
     padding-left: 30px;
-    padding-top: 25%;
+    padding-top: 40%;
 }
 
 
@@ -57,19 +57,25 @@ body::-webkit-scrollbar {
     padding-top: 10px;
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    transition: transform .2s;
 }
 
-
+.card-img-top:hover {
+    transform: scale(1.1); /* Escala la imagen un 10% */
+  }
 .card {
     --bs-card-border-color: #0D6EFD;
     --bs-card-bg: #fff0;
     margin: 1rem;
+  
 }
 
 .card-body p {
     color: aliceblue;
     width: 100%;
     height: 100%;
+    
 }
 
 .card-group {
@@ -84,10 +90,10 @@ body::-webkit-scrollbar {
 .container {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 .container-gracias {
